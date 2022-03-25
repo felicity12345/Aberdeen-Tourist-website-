@@ -43,7 +43,7 @@ if(isset($_GET['logout'])){
           Dropdown link
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="login.php">place to visit</a>
+          <a class="dropdown-item" href="visit.php">place to visit</a>
           <a class="dropdown-item" href="signup.php">Things to do</a>
           <a class="dropdown-item" href="server.php">Place to stay</a>
           <a class="dropdown-item" href="book.php">Book to visit</a>
