@@ -37,7 +37,7 @@ if(isset($_GET['logout'])){
 
       mysqli_query($link, $query);
 
-      header("location: booking.php");
+      header("location: #");
       die('connection Error('.mysqli_connect_errno().')'.mysqli_connect_error());
 
     }else
@@ -79,11 +79,11 @@ if(isset($_GET['logout'])){
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           
-          <a class="dropdown-item" href="login.php">Place to Visit</a>
-          <a class="dropdown-item" href="signup.php">Things to do</a>
-          <a class="dropdown-item" href="server.php">Place to stay</a>
-           <a class="dropdown-item" href="apearlpassreset.php">Change Password</a>
-           <a class="dropdown-item" href="apearllogout.php">Logout</a>
+          <a class="dropdown-item" href="visit.php">Place to Visit</a>
+          <a class="dropdown-item" href="things.php">Things to do</a>
+          <a class="dropdown-item" href="place.php">Place to stay</a>
+           <a class="dropdown-item" href="passreset.php">Change Password</a>
+           <a class="dropdown-item" href="logout.php">Logout</a>
         </div>
       </li>
     </ul>
