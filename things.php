@@ -47,7 +47,6 @@ if(isset($_GET['logout'])){
           <a class="dropdown-item" href="visit.php">Place to visit</a>
           <a class="dropdown-item" href="place.php">Place to stay</a>
           <a class="dropdown-item" href="book.php">Book to visit</a>
-          
           <a class="dropdown-item" href="logout.php">Logout</a>
           
         </div>
@@ -58,53 +57,62 @@ if(isset($_GET['logout'])){
 
   
 </head>
-  <body>
+<body>
    <header>
-<h1 class="text-center">Beautiful place to Visit</h1>
+<h1 class="text-center">Things to do in Aberdeen</h1>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, ipsam non iste in quos obcaecati similique eaque unde officiis dicta aliquid. Nulla est, animi architecto asperiores perspiciatis officia dolore vero esse fuga deleniti soluta alias officiis culpa dolores expedita modi tempora voluptas minus, fugiat, sed quis excepturi! Veniam earum rerum quasi alias cupiditate cum fugit quas, voluptatem quod enim atque officia facilis debitis ad obcaecati aspernatur provident consequuntur quibusdam inventore et! Temporibus odio delectus quos quas vitae distinctio eligendi nobis quis! Corporis, reiciendis, dolores dolor nulla dolorum veritatis sed perferendis tenetur odio tempore cumque quae fugit velit necessitatibus impedit maxime.</p>
 
+  
 <div class="container-fluid">
   <div class="row">
 <div class="col-lg-4 col-md-4 col-12">
-  <img src="image/union.jpg" class="img-fluid pb-3">
-  <center><h4>ABERDEEN UNION SQUARE</h4></center>
+  <img src="image/gym.webp" class="img-fluid pb-3">
+  <center><h4>ABERDEEN GYM CENTER</h4><center>
 </div>
 
 <div class="col-lg-4 col-md-4 col-12">
-  <img src="image/beach5.jpg" class="img-fluid pb-3">
-  <center><h4>ABERDEEN BEACH</h4></center>
-</div>
-
-
-<div class="col-lg-4 col-md-4 col-12">
-  <img src="image/museum2.jpg" class="img-fluid pb-3">
-  <center><h4>ABERDEEN ART GALLERY</h4></center>
+  <img src="image/2.jpg" class="img-fluid pb-3">
+  <center><h4>ABERDEEN BEACH LEISURE CENTER</h4></center>
 </div>
 
 
 <div class="col-lg-4 col-md-4 col-12">
-  <img src="image/castle.jpg" class="img-fluid pb-3">
-  <center><h4>ABERDEEN CASTLE</h4></center>
-</div>
-
-<div class="col-lg-4 col-md-4 col-12">
-  <img src="image/rgu.jpg" class="img-fluid pb-3">
-  <center><h4>RGU UNIVERSITY ABERDEEN </h4></center>
-</div>
-
-<div class="col-lg-4 col-md-4 col-12">
-  <img src="image/marcatcross.jpg" class="img-fluid pb-3">
-  <center><h4>ABERDEEN MERCAT CROSS</h4></center>
+  <img src="image/6.jpg" class="img-fluid pb-3">
+  <center><h4>ABERDEEN AMUSEMENT PARK</h4></center>
 </div>
 
 </div>
 </div>
 </section>
 </a>
- </header> 
+</header>
 
- 
- <p style="text-align:center; font size:0.85em">Copyright &copy; 2020 Aberdeen Tourism</p>
+<header>
+
+<div class="container-fluid">
+  <div class="row">
+<div class="col-lg-4 col-md-4 col-12">
+  <img src="image/lochter.jpg" class="img-fluid pb-3">
+  <center><h4>RIDE ON LOCHTER</h4></center>
+</div>
+
+<div class="col-lg-4 col-md-4 col-12">
+  <img src="image/food.jpg" class="img-fluid pb-3">
+  <center><h4>ITALIAN RESTOURANT ABERDEEN</h4></center>
+</div>
+
+<div class="col-lg-4 col-md-4 col-12">
+  <img src="image/night2.jpg" class="img-fluid pb-3">
+  <center><h4>ABERDEEN NIGHT CLUB</h4></center>
+</div>
+
+</div>
+</div>
+</section>
+</a
+</header>
+
+<p style="text-align:center; font size:0.85em">Copyright &copy; 2020 Aberdeen Tourism</p>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -114,4 +122,3 @@ if(isset($_GET['logout'])){
  <?php
   include_once 'footer.php';
   ?>
-   
