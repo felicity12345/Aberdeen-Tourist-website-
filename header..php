@@ -17,10 +17,10 @@
     
   
                 
-                <li><a href="about.php">About Us</a></li>
-                <li><a href="apearlregister.php">Sign up</a></li>
-                <li><a href="apearllogin.php">Log in</a></li>
-                
+                <li><a href="#">About Us</a></li>
+                <li><a href="register.php">Sign up</a></li>
+                <li><a href="login.php">Log in</a></li>
+                <li><a href="#">Admin</a></li>
        </div>
     </div>
   </nav>
