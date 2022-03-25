@@ -47,7 +47,7 @@ if(isset($_GET['logout'])){
           <a class="dropdown-item" href="things.php">Things to do</a>
           <a class="dropdown-item" href="place.php">Place to stay</a>
           <a class="dropdown-item" href="book.php">Book to visit</a>
-          <a class="dropdown-item" href="passreset.php">Change Password</a>
+         
           <a class="dropdown-item" href="logout.php">Logout</a>
           
         </div>
