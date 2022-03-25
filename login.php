@@ -150,7 +150,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <input type="submit" class="btn btn-primary" value="Login">
             </div>
             <p>Don't have an account? <a href="register.php">Signup here</a>.</p>
-            <p><a href="#" target="blank">click here</a> if you have forgotten your password</p>
+            <p><a href="passwordreset.php" target="blank">click here</a> if you have forgotten your password</p>
         </form>
     </div>
     <p style="text-align:center; font size:0.85em">Copyright &copy; 2020 Aberdeen Tourism</p>
