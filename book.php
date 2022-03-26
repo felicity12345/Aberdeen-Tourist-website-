@@ -102,31 +102,37 @@ if(isset($_GET['logout'])){
         <div class="form-group">
           <label for="name">Name</label>
           <input type="text" placeholder="enter your name" name="name" class="form-control">
+          <class="form-control" autocomplete="off">
         </div>
 
         <div class="form-group">
           <label for="email">email</label>
           <input type="text" placeholder="enter your email" name="email" id="email" class="form-control">
+          <class="form-control" autocomplete="off">
         </div>
 
         <div class="form-group">
           <label for="number">number</label>
           <input type="number" placeholder="enter your number" name="number" class="form-control">
+          <class="form-control" autocomplete="off">
         </div>
 
         <div class="form-group">
           <label for="address">Address</label>
           <input type="text" placeholder="enter location" name="location" class="form-control">
+          <class="form-control" autocomplete="off">
         </div>
 
         <div class="form-group">
           <label for="arrivals">Arrivals</label>
           <input type="date"name="arrivals" class="form-control">
+          <class="form-control" autocomplete="off">
         </div>
 
         <div class="form-group">
           <label for="leaving">Leaving</label>
           <input type="date"name="leaving" class="form-control">
+          <class="form-control" autocomplete="off">
         </div>
    </div>
       <center><button type="submit" class="btn btn- success"><h3>submit</h3></button></center>

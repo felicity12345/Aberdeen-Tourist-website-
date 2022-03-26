@@ -106,14 +106,16 @@
                     <label>New Password</label>
                     <input type="password" name="new_password" class="form-control <?php echo (!empty($new_password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $new_password; ?>">
                         <span class="invalid-feedback"><?php echo $new_password_err; ?></span>
+                        <class="form-control" autocomplete="off">
                           </div>
                              <div class="form-group">
                              <label>Confirm Password</label>
                             <input type="password" name="confirm_password" class="form-control <?php echo (!empty($confirm_password_err)) ? 'is-invalid' : ''; ?>">
                         <span class="invalid-feedback"><?php echo $confirm_password_err; ?></span>
+                        <class="form-control" autocomplete="off">
                         </div>
                         <div class="form-group">
-                    <input type="submit" class="btn btn-primary" value="Submit">
+                    <input type="submit" class="btn btn-success" value="Submit">
                     <a class="btn btn-link ml-2" href="welcome.php">Cancel</a>
                 </div>
             </form>
