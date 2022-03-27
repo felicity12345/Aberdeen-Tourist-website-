@@ -1,6 +1,3 @@
-<?php 
-  include_once 'header.php';
-  ?>
 
 
 <?php
@@ -37,7 +34,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     // Validate credentials
     if(empty($username_err) && empty($password_err)){
         // Prepare a select statement
-        $sql = "SELECT id, username, password FROM admin WHERE username =?";
+        $sql = "SELECT id, username, password FROM users WHERE username =?";
 
         if($stmt = mysqli_prepare($link, $sql)){
             // Bind variables to the prepared statement as parameters
@@ -66,7 +63,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;
 
                             // Redirect user to welcome page
-                            header("location: book.php");
+                            header("location:http://localhost/phpmyadmin/index.php?route=/sql&server=1&db=aberdeen&table=admin&pos=0");
                         } else{
                             // Password is not valid, display a generic error message
                             $login_err = "Invalid username or password.";
@@ -151,6 +148,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <div class="form-group">
                     <input type="submit" class="btn btn-success" value="Login">
                 </div>
+                <p><a href="logout.php">Logout</a>.</p>
+            
             </form>
         </div>
     </header>
