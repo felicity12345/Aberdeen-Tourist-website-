@@ -66,19 +66,19 @@ if(isset($_GET['logout'])){
 <div class="container-fluid">
   <div class="row">
 <div class="col-lg-4 col-md-4 col-12">
-  <img src="image/HOTEL1.jpg" class="img-fluid pb-3">
+  <img src="image/ibisr1.jpg" class="img-fluid pb-3">
   <center><h4>IBIS HOTEL ABERDEEN</h4><center>
 </div>
 
 <div class="col-lg-4 col-md-4 col-12">
-  <img src="image/ibisr.jpg" class="img-fluid pb-3">
-  <center><h4>RESTOURANT</h4></center>
+  <img src="image/suit.jpg" class="img-fluid pb-3">
+  <center><h4>DOUBLE SUIT</h4></center>
 </div>
 
 
 <div class="col-lg-4 col-md-4 col-12">
-  <img src="image/suit2.jpg" class="img-fluid pb-3">
-  <center><h4>GUEST SUIT</h4></center>
+  <img src="image/new1.jpg" class="img-fluid pb-3">
+  <center><h4></h4></center>
 </div>
 
 </div>
