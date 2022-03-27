@@ -37,7 +37,7 @@ if(isset($_GET['logout'])){
 
       mysqli_query($link, $query);
 
-      header("location: #");
+      header("location: booking.php");
       die('connection Error('.mysqli_connect_errno().')'.mysqli_connect_error());
 
     }else
