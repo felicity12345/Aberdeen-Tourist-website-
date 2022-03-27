@@ -31,41 +31,42 @@
 
 ?>
    
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact me</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.php">ABZ</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      
+     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Categories
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+         
+           <a class="dropdown-item" href="logout.php">Logout</a>
+          
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
 </head>
+
 <body>
-    <style>
-body{ font: 14px sans-serif;
-            
-            flex-direction: column;
-            justify-content: center;
-            padding:1.7rem ;
-            margin:0;
-            align-items: center;
-            height: 100vh;
-            font: size 10px;
-           
-            background-size:cover;
-         }
-        .contact-form{
-             width: 100%;
-             max-width: 400px; 
-            padding: 5px; 
-            margin:1.7rem
-            border-radius: var(--border-radius);
-            background: #ffffff;
-            font:500 1rem 
-            padding: 2rem;
-        }
-</style>
- <section class="my-4">
+  <center><h3>SEND MAIL</h3></center>
+ <section class="my-7">
           <div class="w-50 m-auto">   
     <form class="contact-form" action="contact.php" method="post">
            <input type="text" name="name" placeholder="Full name">

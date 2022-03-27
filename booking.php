@@ -25,13 +25,12 @@ if(isset($_GET['logout'])){
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    
     <title>fetch Data from database</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     
 
@@ -61,9 +60,10 @@ if(isset($_GET['logout'])){
   
 </head>
     <body>
-        <table align="center" boarder="2px" style="width:100%; line-height:40px;">
-            <tr>
-                <th colspan="7"><h2>Booking Record</h2></th>
+        <table align="center" boarder="3px" style="width:100%; line-height:40px;">
+       <center><h2>Your Booking Details</h2></center> 
+           <tr>
+                <th colspan="7"></th>
             </tr>
             <t>
                 <th> bookID </th>

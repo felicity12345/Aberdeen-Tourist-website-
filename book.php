@@ -92,7 +92,7 @@ if(isset($_GET['logout'])){
   
 </head>
 <body>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam minima ab facilis, sequi aliquid dicta natus illum quasi harum nihil, laborum doloremque nisi. Ex dolor eligendi at qui necessitatibus accusantium, maiores omnis consequuntur atque. Sed, facilis. Illo expedita nesciunt, aliquid laudantium quia eius itaque beatae numquam repudiandae adipisci veniam tenetur eaque provident similique sint, impedit sapiente. Iure quasi distinctio rem consequuntur, quos voluptate nobis nostrum quod. Labore iure quidem reiciendis magni dolores amet suscipit quasi animi ipsa cumque, fugiat quia, ducimus quos. Ex qui et quidem tempora libero ut veniam cupiditate. Nulla sed vitae provident repellendus similique! Iusto, quos dicta!</p>
+  
   <section class="my-4">
     <div class="py-4">
    <h1 class="text-center">Book your trip</h1>
