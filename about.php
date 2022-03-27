@@ -1,6 +1,11 @@
 <?php 
   include_once 'header.php';
   ?>
+
+
+<?php 
+  include_once 'header.php';
+  ?>
 <style>
 div.gallery {
 margin: 5px;
