@@ -20,8 +20,8 @@
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="register.php">Sign up</a></li>
                 <li><a href="login.php">Log in</a></li>
-                <li><a href="contact.php">Contact Us</a></li>
-                <li><a href="booking.php">book result</a></li>
+                
+              
                 
        </div>
     </div>
