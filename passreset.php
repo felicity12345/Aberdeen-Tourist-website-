@@ -3,28 +3,28 @@
 
 
     // Include configure file
-  require_once "configure.php";
+    require_once "configure.php";
 
-      // Define variables and initialize with empty values
-  $new_password = $confirm_password = "";
-  $new_password_err = $confirm_password_err = "";
+    //  Define variables and initialize with empty values
+    $new_password = $confirm_password = "";
+    $new_password_err = $confirm_password_err = "";
 
-      // Processing form data when form is submitted
+    //   Processing form data when form is submitted
     if($_SERVER["REQUEST_METHOD"] == "POST"){
 
-      // Validate new password
-     if(empty(trim($_POST["new_password"]))){
-        $new_password_err = "Please enter the new password.";
-    } elseif(strlen(trim($_POST["new_password"])) < 6){
-        $new_password_err = "Password must have atleast 6 characters.";
-    } else{
-        $new_password = trim($_POST["new_password"]);
-    }
+       //    Validate new password
+       if(empty(trim($_POST["new_password"]))){
+            $new_password_err = "Please enter the new password.";
+          }   elseif(strlen(trim($_POST["new_password"])) < 8){
+            $new_password_err = "Password must have atleast 8 characters.";
+          }   else{
+            $new_password = trim($_POST["new_password"]);
+        }
 
-    // Validate confirm password
-    if(empty(trim($_POST["confirm_password"]))){
-        $confirm_password_err = "Please confirm the password.";
-    } else{
+        //     confirm password Validation
+       if(empty(trim($_POST["confirm_password"]))){
+          $confirm_password_err = "Please confirm the password.";
+        } else{
         $confirm_password = trim($_POST["confirm_password"]);
         if(empty($new_password_err) && ($new_password != $confirm_password)){
             $confirm_password_err = "Password did not match.";
@@ -74,30 +74,31 @@
         <nav>
             <style>
               body{ font: 14px sans-serif;
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              padding:1.7rem ;
-              margin:0;
-              align-items: center;
-              height: 100vh;
-              font: size 18px;
-              background: url(./image/aberdeen3.jpeg);
-              background-size:cover;
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               padding:1.7rem ;
+               margin:0;
+               align-items: center;
+               height: 100vh;
+               font: size 18px;
+               background: url(./image/aberdeen3.jpeg);
+               background-size:cover;
               }
               .wrapper{
-              width: 400px;
-              max-width: 400px; 
-              padding: 50px; 
-              margin:1.7rem
-              border-radius: var(--border-radius);
-              background: #ffffff;
-              font:500 1rem 
-              padding: 2rem;
+                width: 400px;
+                max-width: 400px; 
+                padding: 50px; 
+                margin:1.7rem
+                border-radius: var(--border-radius);
+                background: #ffffff;
+                font:500 1rem 
+                padding: 2rem;
              }
             </style>
        </nav>
    </head>
+   
    <body>
         <div class="wrapper">
             <h2>Reset Password</h2>
@@ -106,24 +107,25 @@
                 <div class="form-group">
                     <label>New Password</label>
                     <input type="password" name="new_password" class="form-control <?php echo (!empty($new_password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $new_password; ?>">
-                        <span class="invalid-feedback"><?php echo $new_password_err; ?></span>
-                        <class="form-control" autocomplete="off">
-                          </div>
-                             <div class="form-group">
-                             <label>Confirm Password</label>
-                            <input type="password" name="confirm_password" class="form-control <?php echo (!empty($confirm_password_err)) ? 'is-invalid' : ''; ?>">
+                    <span class="invalid-feedback"><?php echo $new_password_err; ?></span>
+                    <class="form-control" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label>Confirm Password</label>
+                        <input type="password" name="confirm_password" class="form-control <?php echo (!empty($confirm_password_err)) ? 'is-invalid' : ''; ?>">
                         <span class="invalid-feedback"><?php echo $confirm_password_err; ?></span>
                         <class="form-control" autocomplete="off">
-                        </div>
-                        <div class="form-group">
-                    <input type="submit" class="btn btn-success" value="Submit">
-                    <a class="btn btn-link ml-2" href="welcome.php">Cancel</a>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-success" value="Submit">
+                        <a class="btn btn-link ml-2" href="welcome.php">Cancel</a>
+                    </div>
                 </div>
             </form>
         </div>
-      <p style="text-align:center; font size:0.85em">Copyright &copy; 2020 Aberdeen Tourism</p>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <p style="text-align:center; font size:0.85em">Copyright &copy; 2020 Aberdeen Tourism</p>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </body>
 </html>
