@@ -16,7 +16,7 @@
         password VARCHAR(250) NOT NULL,
         created_at DATETIME DEFAULT CURRENT_TIMESTAMP)";
         if(mysqli_query($link, $sql)){
-        echo "  Tourist Table created successfully.";
+        echo "  aberdeen table created successfully.";
      }    else{
        echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
      }
