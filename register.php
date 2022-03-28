@@ -1,5 +1,5 @@
 <?php
-// Include config file
+// Include configure
 require_once "configure.php";
 
 // Define variables and initialize with empty values
@@ -97,15 +97,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Sign Up</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <nav>
-    <style>
+    <head>
+      <meta charset="UTF-8">
+      <title>Sign Up</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
         
-        body{ font: 14px sans-serif;
+        <style>
+        
+            body{ font: 14px sans-serif;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -116,10 +116,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             font: size 18px;
             background: url(./image/aberdeen3.jpeg);
             background-size:cover;
-         }
-        .wrapper{
-             width: 400px;
-             max-width: 400px; 
+            }
+            .wrapper{
+            width: 400px;
+            max-width: 400px; 
             padding: 50px; 
             margin:1.7rem
             border-radius: var(--border-radius);
@@ -127,49 +127,47 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             font:500 1rem 
             padding: 2rem;
         
-        }
-    </style>
-</head>
-<body>
-    <div class="wrapper">
-        <center><h2>Sign Up</h2></center>
-        <center><p>Please fill this form to create an account.</p></center>
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-            <div class="form-group">
-                <label>Username</label>
-                <input type="text" name="username" class="form-control <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>">
-                <span class="invalid-feedback"><?php echo $username_err; ?></span>
-                <class="form-control" autocomplete="off">
-            </div>
-            <div class="form-group">
-                <label>Password</label>
-                <input type="password" name="password" class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $password; ?>">
-                <span class="invalid-feedback"><?php echo $password_err; ?></span>
-                <class="form-control" autocomplete="off">
-            </div>
-            <div class="form-group">
-                <label>Confirm Password</label>
-                <input type="password" name="confirm_password" class="form-control <?php echo (!empty($confirm_password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $confirm_password; ?>">
-                <span class="invalid-feedback"><?php echo $confirm_password_err; ?></span>
-                <class="form-control" autocomplete="off">
-            </div>
-            <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Submit">
-                <input type="reset" class="btn btn-success ml-2" value="Reset">
-            </div>
-            <p>Already have an account? <a href="login.php">Login here</a>.</p>
+            }
+        </style>
+    </head>
+    <body>
+       <div class="wrapper">
+           <center><h2>Sign Up</h2></center>
+           <center><p>Please fill this form to create an account.</p></center>
+            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+                <div class="form-group">
+                  <label>Username</label>
+                  <input type="text" name="username" class="form-control <?php echo (!empty($username_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $username; ?>">
+                  <span class="invalid-feedback"><?php echo $username_err; ?></span>
+                   <class="form-control" autocomplete="off">
+                </div>
+               <div class="form-group">
+                  <label>Password</label>
+                  <input type="password" name="password" class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $password; ?>">
+                  <span class="invalid-feedback"><?php echo $password_err; ?></span>
+                  <class="form-control" autocomplete="off">
+                </div>
+                <div class="form-group">
+                   <label>Confirm Password</label>
+                   <input type="password" name="confirm_password" class="form-control <?php echo (!empty($confirm_password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $confirm_password; ?>">
+                   <span class="invalid-feedback"><?php echo $confirm_password_err; ?></span>
+                   <class="form-control" autocomplete="off">
+                </div>
+                <div class="form-group">
+                  <input type="submit" class="btn btn-primary" value="Submit">
+                  <input type="reset" class="btn btn-success ml-2" value="Reset">
+               </div>
+                <p>Already have an account? <a href="login.php">Login here</a>.</p>
             
-        </form>
-    </div>
+            </form>
+        </div>
 
-    <p style="text-align:center; font size:0.85em">Copyright &copy; 2020 Aberdeen Tourism</p>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+        <p style="text-align:center; font size:0.85em">Copyright &copy; 2020 Aberdeen Tourism</p>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
 </html>
-
-
 <?php
-      include_once 'footer.php';
+   include_once 'footer.php';
 ?>
