@@ -33,7 +33,6 @@ line-height: 1.2;
     font-size: 20px;
     color:#f4f4f4;
 }
-
 section{
     padding: 0;
     background: var(--light-bg);
@@ -43,5 +42,3 @@ section{
     font-size: 1.7rem;
     color: #926239;   
 }  
-
-
