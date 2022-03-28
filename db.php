@@ -6,7 +6,7 @@
     // Check connection
        if($link === false){
         die("ERROR: Could not connect. " . mysqli_connect_error());
-        }
+     }
 
   
     //  creating table query execution
@@ -19,7 +19,7 @@
         echo "  Tourist Table created successfully.";
      }    else{
        echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
-      }
+     }
        
     // Close connection
         mysqli_close($link);
