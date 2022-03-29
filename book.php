@@ -50,6 +50,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- meta tag -->
     <meta charset="UTF-8">
     <title>Welcome</title>
     <meta charset="UTF-8">
@@ -58,7 +59,7 @@
     <title>Welcome</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-
+    <!-- start of nav bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.php">ABZ</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,6 +86,7 @@
         </ul>
       </div>
     </nav>
+    <!-- end of nav bar -->
   </head>
  
   <body>

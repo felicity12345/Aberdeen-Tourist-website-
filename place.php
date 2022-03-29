@@ -17,6 +17,7 @@ if(isset($_GET['logout'])){
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- meta tag -->
     <meta charset="UTF-8">
     <title>Welcome</title>
     <meta charset="UTF-8">
@@ -26,7 +27,7 @@ if(isset($_GET['logout'])){
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     
-
+    <!-- start of nav bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.php">ABZ</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,13 +52,14 @@ if(isset($_GET['logout'])){
         </ul>
       </div>
     </nav>
+    <!-- end of nav bar -->
   </head>
   <body>
     <header>
      <h1 class="text-center">Place to Stay in Aberdeen</h1>
      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, ipsam non iste in quos obcaecati similique eaque unde officiis dicta aliquid. Nulla est, animi architecto asperiores perspiciatis officia dolore vero esse fuga deleniti soluta alias officiis culpa dolores expedita modi tempora voluptas minus, fugiat, sed quis excepturi! Veniam earum rerum quasi alias cupiditate cum fugit quas, voluptatem quod enim atque officia facilis debitis ad obcaecati aspernatur provident consequuntur quibusdam inventore et! Temporibus odio delectus quos quas vitae distinctio eligendi nobis quis! Corporis, reiciendis, dolores dolor nulla dolorum veritatis sed perferendis tenetur odio tempore cumque quae fugit velit necessitatibus impedit maxime.</p>
 
-  
+      <!-- start of div section -->
       <div class="container-fluid">
         <div class="row">
        <div class="col-lg-4 col-md-4 col-12">
@@ -78,10 +80,11 @@ if(isset($_GET['logout'])){
 
       </div>
       </div>
-     </section>
+      </section>
       </a>
+      <!-- end of div section -->
 
-
+      <!-- start of div container -->
        <div class="container-fluid">
           <div class="row">
           <div class="col-lg-4 col-md-4 col-12">
@@ -103,6 +106,7 @@ if(isset($_GET['logout'])){
         </div>
      </section>
       </a>
+      <!-- end of div container -->
       <p style="text-align:center; font size:0.85em">Copyright &copy; 2020 Aberdeen Tourism</p>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

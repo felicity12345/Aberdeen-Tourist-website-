@@ -98,12 +98,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- meta tag -->
       <meta charset="UTF-8">
       <title>Sign Up</title>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
       <link rel="stylesheet" href="css/style.css">
         
-        <style>
+        <style> 
         
             body{ font: 14px sans-serif;
             display: flex;
@@ -131,6 +132,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </style>
     </head>
     <body>
+        <!-- start of div -->
        <div class="wrapper">
            <center><h2>Sign Up</h2></center>
            <center><p>Please fill this form to create an account.</p></center>
@@ -161,7 +163,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             
             </form>
         </div>
-
+         <!-- end of div  -->
         <p style="text-align:center; font size:0.85em">Copyright &copy; 2020 Aberdeen Tourism</p>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

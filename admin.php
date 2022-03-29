@@ -88,6 +88,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- meta tag -->
        <meta charset="UTF-8">
        <title>Login</title>
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -103,7 +104,7 @@
               align-items: center;
               height: 100vh;
               font: size 18px;
-              background: url(./image/aberdeen3.jpeg);
+              background: url(./image/aberdeen3.jpeg); /* top, bottom , left amd right background image */
               background-size:cover;
             }
             .wrapper{
@@ -120,6 +121,7 @@
     </head>
     <body>
         <header>
+            <!-- start of div section -->
             <div class="wrapper">
               <h2> Admin Login</h2>
               <p>Please fill in your credentials to login.</p>
@@ -151,6 +153,7 @@
                     <p><a href="logout.php">Logout</a>.</p>
                </form>
             </div>
+            <!-- end of div section -->
         </header>
         <p style="text-align:center; font size:0.85em">Copyright &copy; 2020 Aberdeen Tourism</p>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

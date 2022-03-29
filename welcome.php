@@ -17,16 +17,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--meta tags-->
     <meta charset="UTF-8">
     <title>Welcome</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
+    <!--bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     
-
+    <!--start of nav bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.php">ABZ</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,9 +56,11 @@
      </ul>
     </div>
    </nav>
+   <!--end of nav bar-->
   </head>
   <body>
     <header>
+      <!--start div-->
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -77,7 +81,8 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
+      </div> 
+      <!--end of div container-->
 
     </header> 
     <p style="text-align:center; font size:0.85em">Copyright &copy; 2020 Aberdeen Tourism</p>

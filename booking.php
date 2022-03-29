@@ -17,12 +17,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-     <title>fetch Data from database</title>
+     <!-- meta tag -->
+     <title>Data from database</title>
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
      <link rel="stylesheet" href="css/style.css">
+        <!-- start nav section -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
          <a class="navbar-brand" href="index.php">ABZ</a>
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,6 +45,7 @@
                 </ul>
             </div>
         </nav>
+        <!-- start of div section -->
     </head>
 
 
@@ -58,6 +61,7 @@
         $resultCheck = mysqli_num_rows($result);
     ?>
     <body>
+        <!-- start of table section -->
         <table align="center" boarder="3px" style="width:100%; line-height:40px;">
             <center><h2>Your Booking Details</h2></center> 
            <tr>
@@ -90,6 +94,7 @@
               }
            ?>
         </table>
+       <!-- start of div section -->
         <center><p><h3>Thank you for booking with us</h3></p></center>
         <p style="text-align:center; font size:0.85em">Copyright &copy; 2020 Aberdeen Tourism</p>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

@@ -93,6 +93,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- meta tag -->
       <meta charset="UTF-8">
        <title>Login</title>
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -125,6 +126,7 @@
         </style>
     </head>
     <body>
+        <!-- div class start -->
         <div class="wrapper">
            <center><h2>Login</h2></center>
            <center><p>Please fill in your credentials to login.</p></center>
@@ -155,6 +157,7 @@
                 <p><a href="passreset.php" target="blank">click here</a> if you have forgotten your password</p>
             </form>
         </div>
+        <!-- div class end -->
        <p style="text-align:center; font size:0.85em">Copyright &copy; 2020 Aberdeen Tourism</p>
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
